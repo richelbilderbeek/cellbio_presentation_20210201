@@ -18,7 +18,7 @@ t$ic50 <- bbbq::predict_ic50s(
 )$ic50
 epiprepreds::get_ic50_threshold(
   peptide_length = n,
-  haplotype_name = haplotype_name,
+  haplotype_name = haplotype,
   percentile = 0.02
 )
 t$ic50 <- round(t$ic50)
