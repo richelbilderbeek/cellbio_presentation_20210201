@@ -74,5 +74,5 @@ ggplot(t_perc, aes(x = haplotype, y = f)) +
     text = element_text(size = 20),
     axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1),
     panel.background = element_rect(fill = "white", color = "white")
-  ) + ggsave("~/smimm11_perc_epitopes_tmh.png", width = 7, height = 7)
+  ); ggsave("~/smimm11_perc_epitopes_tmh.png", width = 7, height = 7)
 t_perc
